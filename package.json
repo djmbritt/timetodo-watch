@@ -1,0 +1,62 @@
+{
+  "name": "timetodo-watch",
+  "author": "djmbritt",
+  "version": "1.3.0",
+  "keywords": [
+    "pebble-app",
+    "todoist"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "TimeToDo",
+    "uuid": "b4e65337-4c8b-4ca4-8c7f-2804718542cc",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "Status",
+      "StatusText",
+      "TaskCount",
+      "TaskIndex",
+      "TaskId",
+      "TaskTitle",
+      "TaskSub",
+      "TaskPrio",
+      "TaskFlags",
+      "Action",
+      "ActionResult",
+      "Refresh",
+      "SyncDone",
+      "SyncInterval",
+      "SyncStart",
+      "SyncEnd",
+      "LaunchCode",
+      "Hello"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        }
+      ]
+    },
+    "capabilities": [
+      "configurable"
+    ]
+  }
+}
